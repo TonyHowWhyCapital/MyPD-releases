@@ -10,7 +10,7 @@ MyPD 以 PDManer 為基礎修改，依木蘭公共許可證第 2 版（MulanPubL
 
 # MyPD 安裝手冊
 
-適用版本：MyPD 1.0.1（macOS 與 Windows）。
+適用版本：MyPD 1.1.0（macOS 與 Windows）。
 
 本手冊說明如何安裝 MyPD、設定 Java，以及第一次啟動時會遇到的系統警告。
 
@@ -20,9 +20,9 @@ MyPD 以 PDManer 為基礎修改，依木蘭公共許可證第 2 版（MulanPubL
 
 | 您的電腦 | 安裝檔 |
 |----------|--------|
-| Mac，Apple 晶片（M1 之後的機型） | `MyPD-mac_arm64_v1.0.1.dmg` |
-| Mac，Intel 處理器 | `MyPD-mac_x64_v1.0.1.dmg` |
-| Windows 10 或 11（64 位元） | `MyPD-win_x64_v1.0.1.exe` |
+| Mac，Apple 晶片（M1 之後的機型） | `MyPD-mac_arm64_v1.1.0.dmg` |
+| Mac，Intel 處理器 | `MyPD-mac_x64_v1.1.0.dmg` |
+| Windows 10 或 11（64 位元） | `MyPD-win_x64_v1.1.0.exe` |
 
 不確定 Mac 的晶片時，請點螢幕左上角的蘋果選單，選「關於這台 Mac」。「晶片」顯示 Apple M 系列就用 `arm64`，「處理器」顯示 Intel 就用 `x64`。
 
@@ -108,7 +108,7 @@ xattr -dr com.apple.quarantine /Applications/MyPD.app
 
 ## 4. 在 Windows 安裝
 
-1. 連按兩下 `MyPD-win_x64_v1.0.1.exe`。
+1. 連按兩下 `MyPD-win_x64_v1.1.0.exe`。
    - 出現「Windows 已保護您的電腦」的藍色視窗時，點「其他資訊」，再按下方出現的「仍要執行」。這個視窗一開始只有「不要執行」按鈕，一定要先點「其他資訊」。
    - 顯示「需要 64 位元 Windows 系統」時，表示這台電腦是 32 位元的 Windows，無法安裝這一版。
    - 連按兩下後沒有任何反應，或檔案消失時，是防毒軟體攔下了安裝檔。請聯絡資訊人員把安裝檔加入允許清單。

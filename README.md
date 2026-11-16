@@ -21,10 +21,9 @@ MyPD 以 PDManer 為基礎修改，依木蘭公共許可證第 2 版（MulanPubL
 | 您的電腦 | 安裝檔 |
 |----------|--------|
 | Mac，Apple 晶片（M1 之後的機型） | `MyPD-mac_arm64_v1.1.0.dmg` |
-| Mac，Intel 處理器 | `MyPD-mac_x64_v1.1.0.dmg` |
 | Windows 10 或 11（64 位元） | `MyPD-win_x64_v1.1.0.exe` |
 
-不確定 Mac 的晶片時，請點螢幕左上角的蘋果選單，選「關於這台 Mac」。「晶片」顯示 Apple M 系列就用 `arm64`，「處理器」顯示 Intel 就用 `x64`。
+Mac 版只支援 Apple 晶片，不提供 Intel 處理器的版本。不確定 Mac 的晶片時，請點螢幕左上角的蘋果選單，選「關於這台 Mac」：「晶片」顯示 Apple M 系列才能安裝。
 
 Windows 安裝檔是 64 位元程式，不能安裝在 32 位元的 Windows 上。不確定時，請開啟「設定」→「系統」→「系統資訊」（Windows 10 為「關於」），查看「系統類型」。顯示「64 位元作業系統」才能安裝。
 
